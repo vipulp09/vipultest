@@ -1,0 +1,15 @@
+{
+  "Parameters" : {
+        "Env" : "dev",
+        "Project": "DonorApp",
+        "CostCenterId": "DonorApp",
+        "ImageUrl": "942319188167.dkr.ecr.us-east-1.amazonaws.com/nginx:1.0.3",
+        "ContainerPort": "80",
+        "ContainerCpu": "1024",
+        "ContainerMemory": "2048",
+        "DesiredCount": "2",
+        "MinContainers": "2",
+        "MaxContainers": "3",
+        "AutoScalingTargetValue": "90"
+  }
+}
